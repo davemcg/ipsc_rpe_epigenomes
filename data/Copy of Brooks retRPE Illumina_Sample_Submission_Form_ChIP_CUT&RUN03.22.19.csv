@@ -1,0 +1,27 @@
+Sample ID ***,Sample ID  Validation,Sample Description,Species,Library Type,Enrichment Method for RNA-Seq,Average Fragment Size in bp (for ChIP-Seq or other pre-sheared samples),Sample Vol (ul),Sample Conc (ug/ml),Comments/Special Instructions: Library Amplification Primer 1/Primer 2,Sequencing strategy,NISC Quote#
+INP_1,,3D1iPSC_INPChIP,Human,,,150 to 800,8.0,72.821,,76 bp SE; 40M/lib,3029.0
+INP_2,,3D1RPE_INPChIP,Human,,,150 to 800,8.0,421.262,,76 bp SE; 40M/lib,3029.0
+H3K27ac_1,,3D1iPSC_H3K27acChIP,Human,,,150 to 800,10.0,24.932,,76 bp SE; 40M/lib,3029.0
+H3K27ac_2,,3D1iPSC_H3K27acChIP,Human,,,150 to 800,10.0,24.1,,76 bp SE; 40M/lib,3029.0
+MITF_1,,3D1iPSC_MITFChIP,Human,,,150 to 800,10.0,4.671,,76 bp SE; 20M/lib,3028.0
+MITF_2,,3D1iPSC_MITFChIP,Human,,,150 to 800,10.0,7.118,,76 bp SE; 20M/lib,3028.0
+PAX6_1,,3D1iPSC_PAX6ChIP,Human,,,150 to 800,10.0,16.203,,76 bp SE; 20M/lib,3028.0
+PAX6_2,,3D1iPSC_PAX6ChIP,Human,,,150 to 800,10.0,13.967,,76 bp SE; 20M/lib,3028.0
+SOX10_1,,3D1iPSC_SOX10ChIP,Human,,,150 to 800,10.0,7.251,,76 bp SE; 20M/lib,3028.0
+SOX10_2,,3D1iPSC_SOX10ChIP,Human,,,150 to 800,10.0,4.266,,76 bp SE; 20M/lib,3028.0
+IgG_1,,3D1iPSC_IgG-C&R,Human,,,150 to 650,20.0,See TapeStation Reading,,25 bp PE: 5M/lib,3030.0
+IgG_2,,3D1RPEGFP-_IgG-C&R,Human,,,150 to 650,20.0,See TapeStation Reading,,25 bp PE: 5M/lib,3030.0
+IgG_3,,3D1RPEGFP+_IgG-C&R,Human,,,150 to 650,20.0,See TapeStation Reading,,25 bp PE: 5M/lib,3030.0
+H3K27ac_3,,3D1iPSC-_H3K27ac-C&R,Human,,,150 to 650,20.0,See TapeStation Reading,,25 bp PE: 5M/lib,3030.0
+H3K27ac_4,,3D1RPEGFP-_H3K27ac-C&R,Human,,,150 to 650,20.0,See TapeStation Reading,,25 bp PE: 5M/lib,3030.0
+H3K27ac_5,,3D1RPEGFP+_H3K27ac-C&R,Human,,,150 to 650,20.0,See TapeStation Reading,,25 bp PE: 5M/lib,3030.0
+H3K27me3_1,,3D1iPSC_H3K27me3-C&R,Human,,,150 to 650,20.0,See TapeStation Reading,,25 bp PE: 5M/lib,3030.0
+H3K27me3_2,,3D1RPEGFP-_H3K27me3-C&R,Human,,,150 to 650,20.0,See TapeStation Reading,,25 bp PE: 5M/lib,3030.0
+H3K27me3_3,,3D1RPEGFP-_H3K27me3-0.5MC&R,Human,,,150 to 650,20.0,See TapeStation Reading,,25 bp PE: 5M/lib,3030.0
+H3K27me3_4,,3D1RPEGFP+_H3K27me3-C&R,Human,,,150 to 650,20.0,See TapeStation Reading,,25 bp PE: 5M/lib,3030.0
+H3K27me3_5,,3D1RPEGFP+_H3K27me3-0.5MC&R,Human,,,150 to 650,20.0,See TapeStation Reading,,25 bp PE: 5M/lib,3030.0
+SOX10_3,,3D1iPSC_SOX10-C&R,Human,,,150 to 650,20.0,See TapeStation Reading,,25 bp PE: 5M/lib,3030.0
+SOX10_4,,3D1RPEGFP-_SOX10-C&R,Human,,,150 to 650,20.0,See TapeStation Reading,,25 bp PE: 5M/lib,3030.0
+SOX10_5,,3D1RPEGFP-_SOX10-0.5MC&R,Human,,,150 to 650,20.0,See TapeStation Reading,,25 bp PE: 5M/lib,3030.0
+SOX10_6,,3D1RPEGFP+_SOX10-C&R,Human,,,150 to 650,20.0,See TapeStation Reading,,25 bp PE: 5M/lib,3030.0
+SOX10_7,,3D1RPEGFP+_SOX10-0.5MC&R,Human,,,150 to 650,20.0,See TapeStation Reading,,25 bp PE: 5M/lib,3030.0
