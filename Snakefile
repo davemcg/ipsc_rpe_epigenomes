@@ -64,9 +64,7 @@ rule align:
 		
 rule fastqc:
 	input:
-		lambda wildcards: expand('fastq/{sample}/{fastq_files}', \
-				sample = wildcards.sample, \
-				fastq_files = SAMPLE_FASTQ[wildcards.sample])
+		'bams/{sample}.bam'
 	conda:
 		'envs/fastqc.yaml'
 	output:
