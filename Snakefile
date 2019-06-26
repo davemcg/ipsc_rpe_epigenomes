@@ -29,8 +29,9 @@ for key in SAMPLE_FASTQ.keys():
 
 rule all:
 	input:
-		expand('bams/{sample}.bam', sample = SAMPLE_FASTQ.keys()),
-		'fastqc/multiqc/multiqc_report.html'
+		aligned = expand('bams/{sample}.bam', sample = SAMPLE_FASTQ.keys()),
+		multiqc = 'fastqc/multiqc/multiqc_report.html'
+
 
 rule align:
 	input:
@@ -61,10 +62,10 @@ rule align:
 			rm {output}R2
 		fi
 		""" 
-		
+	
 rule fastqc:
 	input:
-		'bams/{sample}.bam'
+		expand('bams/{sample}.bam', sample = SAMPLE_FASTQ.keys())
 	conda:
 		'envs/fastqc.yaml'
 	output:
@@ -83,4 +84,6 @@ rule multiqc:
 	output:
 		'fastqc/multiqc/multiqc_report.html'
 	shell:
-		"multiqc fastqc/ -o fastqc/multiqc"
+		"""
+		multiqc fastqc/ -o fastqc/multiqc
+		"""
