@@ -1,2 +1,4 @@
 metadata: '/home/mcgaugheyd/git/ipsc_rpe_epigenomes/data/nisc_key2.txt'
+input_exp_key: '/home/mcgaugheyd/git/ipsc_rpe_epigenomes/data/sample_type_key.txt'
 fasta: '/fdb/bwa/indexes/hg19.fa'
+fasta_with_index: '/fdb/GATK_resource_bundle/hg19/ucsc.hg19.fasta'
